@@ -2,6 +2,9 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  features:
+    title: Features
+    output: true
   header-slide:
     title: Header Slide
     output: true
