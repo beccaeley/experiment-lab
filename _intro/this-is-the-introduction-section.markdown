@@ -7,4 +7,3 @@ Icon:
 ---
 
 This is a paragraph about what this is.
-
