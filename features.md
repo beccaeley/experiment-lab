@@ -1,10 +1,11 @@
 ---
 title: Features
-permalink: "/features/"
+permalink: "/features"
 Field name:
   icon 1: Description here, max 50 characters
   icon 2: Description here.
-layout: block
+  icon 3: Description here.
+layout: page
 ---
 
 <div class="features-5">
