@@ -1,6 +1,9 @@
 ---
 title: Features
 permalink: "/features/"
+Field name:
+  icon 1: Description here, max 50 characters
+  icon 2: Description here.
 layout: block
 ---
 
