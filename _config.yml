@@ -5,6 +5,9 @@ collections:
   header-slide:
     title: Header Slide
     output: true
+  intro:
+    title: Intro
+    output: true
   posts:
     title: Posts
     output: true
