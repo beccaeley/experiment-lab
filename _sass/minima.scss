@@ -1,20 +1,28 @@
 @charset "utf-8";
-@import url("https://fonts.googleapis.com/css?family=Poppins:500,800");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+@import "neat/_neat.scss";
+
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+  grid: map,
+  color: #C8FEFF
+);
 
 // Define defaults for each variable.
 
 $base-font-family: "Poppins", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
-$base-font-weight: 500 !default;
+$base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-$bold-font-weight: 800 !default;
+$bold-font-weight: 700 !default;
 
 $spacing-unit:     20px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #24BABC !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -171,6 +179,7 @@ a {
  * Wrapper
  */
 .wrapper {
+	 @include grid-visual;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
@@ -505,24 +514,23 @@ table {
 	text-align: center;
 }
 #features{
+	@include grid-column(8);
 	float: right;
-	width: 60%;
 	.feature{
+		@include grid-column(6);
 		float: left;
 		display: inline-block;
-		width: 45%;
-		padding-left: 5%
+		min-height: 300px;
 	}
 	.icon{
 		img{
-			width: 15%;
+			@include grid-column(2);
 			display: inline-block;
 			float: left;
 		}
 	}
 	.content{
-		width: 70%;
-		padding-left: $spacing-unit;
+		@include grid-column(10);
 		float: right;
 		display: inline-block;
 	}
