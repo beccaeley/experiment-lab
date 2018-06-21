@@ -1,7 +1,7 @@
 ---
-layout: block
 title: Features
-permalink: /features/
+permalink: "/features/"
+layout: block
 ---
 
 <div class="features-5">

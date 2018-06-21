@@ -1,7 +1,10 @@
 ---
+title: Welcome to Jekyll!
+date: 2018-06-20 22:38:24 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-06-20 18:38:24 -0400
-categories: jekyll update
 ---
+
 testing…
