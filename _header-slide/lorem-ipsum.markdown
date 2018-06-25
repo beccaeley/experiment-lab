@@ -5,5 +5,4 @@ CTA: Learn More
 Image: "/uploads/WizardofOzTesting-Death_to_stock_kinckerbocker_photography_7.jpg"
 ---
 
-# Headlines need a # in front of them
-This is the first slide you see in the carousel. See how cool this is! 
+This is the second slide you see in the slider. See how cool this is! 
