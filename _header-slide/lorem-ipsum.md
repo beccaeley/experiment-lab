@@ -5,5 +5,4 @@ CTA: Learn More
 Image: "/uploads/juan-di-nella-961-unsplash.jpg"
 ---
 
-# Headlines need a # in front of them
-This is the first slide you see in the carousel. See how cool this is! 
+This is the first slide you see. See how cool this is! 
