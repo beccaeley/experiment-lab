@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2018-06-27 13:35:00 Z
+Image: "/uploads/Death_to_stock_Marzocco_Coffee_5.jpg"
 ---
 
 # This is the introduction section
