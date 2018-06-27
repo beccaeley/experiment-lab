@@ -1,5 +1,5 @@
 ---
-title: Feature 1
+title: Feature 2
 date: 2018-06-21 16:57:00 Z
 Icon: "/uploads/bottles.png"
 ---
