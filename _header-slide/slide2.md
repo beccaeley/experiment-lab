@@ -4,4 +4,4 @@ date: 2018-06-21 14:47:00 Z
 Image: "/uploads/juan-di-nella-961-unsplash.jpg"
 ---
 
-This is the first slide you see. See how cool this is! Adding new type.
+This is the first slide you see. See how cool this is! Adding new type. Look at how much we can write!
